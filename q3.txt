@@ -1,0 +1,5 @@
+1)
+mTransform is the best candidate to move out to a separate component type, as it describes the objects position in the world which entities would most likely need.
+
+2)
+Spites must be rendered on top of each other in order, potentially maintained by something like a vector.
